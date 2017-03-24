@@ -1,5 +1,5 @@
 $(function(){
-    $("tr.you td.comment div a.block").each(function(i, elem){
+    $("tr.you td.comment div a.comment-remove").each(function(i, elem){
         $(elem)[0].click();
     });
 });
