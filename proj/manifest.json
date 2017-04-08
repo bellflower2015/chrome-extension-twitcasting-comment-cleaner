@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "__MSG_extName__",
-    "version": "1.0.1",
+    "version": "1.0.2",
 
     "description": "__MSG_extDescription__",
     "default_locale": "ja",
@@ -19,6 +19,7 @@
         "scripts": [ "background.js" ]
     },
     "permissions": [
+        "*://*.twitcasting.tv/*",
         "*://twitcasting.tv/*"
     ],
 
